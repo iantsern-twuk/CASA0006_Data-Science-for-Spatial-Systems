@@ -1,0 +1,8 @@
+# Data science and Machine learning
+## Final project
+#### How do collision-related variables and spatial factors, such as points of interest, affect the severity and risk of urban traffic accidents?
+[(Report)](https://raw.githack.com/iantsern-twuk/twuk-CASA0006_Data-Science-for-Spatial-Systems/refs/heads/main/Assessment/submission_CASA0006.html)
+This research investigates the relationship between collision attributes and accident severity in urban environments. We examine temporal patterns, road classification, junction design, and weather conditions to understand their impact on crash outcomes. The analysis applies the Accident Risk Index (ARI) proposed by Jin and Noh (2023), computed within H3 hexagonal spatial grids to standardise geospatial representation.
+To capture urban context, we incorporate point-of-interest (POI) data including commercial, recreational, and public locations, building on the framework of Brühwiler et al. (2022). Collision and POI data are preprocessed into consistent H3 formats, enabling spatial, temporal and mutiple feature analysis of accident severity.
+We assess feature importance using SHapley Additive exPlanations (SHAP), following recent advances in interpretable machine learning in traffic safety research such as ramdem forest and xgboost (Ahmed et al., 2023; Rifat et al., 2024). This approach identifies the most influential predictors of accident severity across diverse conditions.
+Ultimately, the model is applied to other cities to evaluate its predictive performance and assess its ability to generalise beyond the original study area.
