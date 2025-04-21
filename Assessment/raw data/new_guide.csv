@@ -1,0 +1,82 @@
+field name,code/format,label
+accident_severity,1,Fatal
+accident_severity,2,Serious
+accident_severity,3,Slight
+day_of_week,1,Sunday
+day_of_week,2,Monday
+day_of_week,3,Tuesday
+day_of_week,4,Wednesday
+day_of_week,5,Thursday
+day_of_week,6,Friday
+day_of_week,7,Saturday
+first_road_class,-1,Data missing or out of range
+first_road_class,1,Motorway
+first_road_class,2,A(M)
+first_road_class,3,A
+first_road_class,4,B
+first_road_class,5,C
+first_road_class,6,Unclassified
+junction_control,-1,Data missing or out of range
+junction_control,0,Not at junction or within 20 metres
+junction_control,1,Authorised person
+junction_control,2,Auto traffic signal
+junction_control,3,Stop sign
+junction_control,4,Give way or uncontrolled
+junction_control,9,unknown (self reported)
+junction_detail,-1,Data missing or out of range
+junction_detail,0,Not at junction or within 20 metres
+junction_detail,1,Roundabout
+junction_detail,2,Mini-roundabout
+junction_detail,3,T or staggered junction
+junction_detail,5,Slip road
+junction_detail,6,Crossroads
+junction_detail,7,More than 4 arms (not roundabout)
+junction_detail,8,Private drive or entrance
+junction_detail,9,Other junction
+junction_detail,99,unknown (self reported)
+light_conditions,-1,Data missing or out of range
+light_conditions,1,Daylight
+light_conditions,4,Darkness - lights lit
+light_conditions,5,Darkness - lights unlit
+light_conditions,6,Darkness - no lighting
+light_conditions,7,Darkness - lighting unknown
+pedestrian_crossing_human_control,-1,Data missing or out of range
+pedestrian_crossing_human_control,0,None within 50 metres 
+pedestrian_crossing_human_control,1,Control by school crossing patrol
+pedestrian_crossing_human_control,2,Control by other authorised person
+pedestrian_crossing_human_control,9,unknown (self reported)
+pedestrian_crossing_physical_facilities,-1,Data missing or out of range
+pedestrian_crossing_physical_facilities,0,No physical crossing facilities within 50 metres
+pedestrian_crossing_physical_facilities,1,Zebra
+pedestrian_crossing_physical_facilities,4,"Pelican, puffin, toucan or similar non-junction pedestrian light crossing"
+pedestrian_crossing_physical_facilities,5,Pedestrian phase at traffic signal junction
+pedestrian_crossing_physical_facilities,7,Footbridge or subway
+pedestrian_crossing_physical_facilities,8,Central refuge
+pedestrian_crossing_physical_facilities,9,unknown (self reported)
+road_surface_conditions,-1,Data missing or out of range
+road_surface_conditions,1,Dry
+road_surface_conditions,2,Wet or damp
+road_surface_conditions,3,Snow
+road_surface_conditions,4,Frost or ice
+road_surface_conditions,5,Flood over 3cm. deep
+road_surface_conditions,6,Oil or diesel
+road_surface_conditions,7,Mud
+road_surface_conditions,9,unknown (self reported)
+road_type,-1,Data missing or out of range
+road_type,1,Roundabout
+road_type,2,One way street
+road_type,3,Dual carriageway
+road_type,6,Single carriageway
+road_type,7,Slip road
+road_type,9,Unknown
+road_type,12,One way street/Slip road
+weather_conditions,-1,Data missing or out of range
+weather_conditions,1,Fine no high winds
+weather_conditions,2,Raining no high winds
+weather_conditions,3,Snowing no high winds
+weather_conditions,4,Fine + high winds
+weather_conditions,5,Raining + high winds
+weather_conditions,6,Snowing + high winds
+weather_conditions,7,Fog or mist
+weather_conditions,8,Other
+weather_conditions,9,Unknown
